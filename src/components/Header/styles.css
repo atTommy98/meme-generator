@@ -1,0 +1,33 @@
+.header {
+   padding: 0 20px;
+   width: 100%;
+   height: 15%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: linear-gradient(90deg, ghostwhite 36%, white 67%);
+}
+
+.header--logo-wrapper {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   width: 50%;
+   height: 100%;
+}
+
+.header--img {
+   display: block;
+   height: 50%;
+   margin-right: 5%;
+}
+
+.header--title {
+   font-size: 1.75rem;
+   color: teal
+}
+
+.header--subtitle {
+   font-size: 1.5rem;
+   color: teal
+}
